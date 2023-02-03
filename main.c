@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
         float donnee2,donnee3;
         PArbre a = NULL;
         FILE* fp=NULL;
-        fp=fopen("t1.csv","r");
+        fp=fopen("t1t.csv","r");
         if(fp==NULL){
             printf("Erreur ouverture fichier.");
             exit(1); 
@@ -82,7 +82,7 @@ int main(int argc, char *argv[]){
             int h;
             PArbre a = NULL;
             FILE* fp=NULL;
-            fp=fopen("p1.csv","r");
+            fp=fopen("presssiont.csv","r");
             if(fp==NULL){
                 printf("Erreur ouverture fichier.");
                 exit(1); 
@@ -132,7 +132,7 @@ int main(int argc, char *argv[]){
             float donnee3;
             PArbre a = NULL;
             FILE* fp=NULL;
-            fp=fopen("vent.csv","r");
+            fp=fopen("ventt.csv","r");
             if(fp==NULL){
                 printf("Erreur ouverture fichier.");
                 exit(1); 
@@ -159,7 +159,7 @@ int main(int argc, char *argv[]){
             float donnee2,donnee3;
             PArbre a = NULL;
             FILE* fp=NULL;
-            fp=fopen("humidite.csv","r");
+            fp=fopen("meteohumiditet.csv","r");
             if(fp==NULL){
                 printf("Erreur ouverture fichier.");
                 exit(1); 
