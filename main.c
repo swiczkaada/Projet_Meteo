@@ -189,7 +189,7 @@ int main(int argc, char *argv[]){
         float donnee2,donnee3;
         PArbre a = NULL;
         FILE* fp=NULL;
-        fp=fopen("altitude.csv","r");
+        fp=fopen("meteoaltt.csv","r");
         if(fp==NULL){
             printf("Erreur ouverture fichier.");
             exit(1); 
