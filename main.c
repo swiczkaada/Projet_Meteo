@@ -56,14 +56,14 @@ int main(int argc, char *argv[]){
         }
     }
     else if(strcmp (argv[1],"t2") == 0){
-        if(strcmp (argv[2],"AVL") == 0){
-            printf("arg t2 AVL");
+        if(strcmp (argv[2],"tab") == 0){
+            printf("arg t2 tab");
         }
         else if(strcmp (argv[1],"ABR") == 0){
             printf("arg t2 ABR");
         }
         else{
-            printf("arg t2 tab");
+            printf("arg t2 AVL");
         }
     }
     else if(strcmp (argv[1],"t3") == 0){
