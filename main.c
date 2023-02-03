@@ -67,14 +67,14 @@ int main(int argc, char *argv[]){
         }
     }
     else if(strcmp (argv[1],"t3") == 0){
-        if(strcmp (argv[2],"AVL") == 0){
-            printf("arg t3 AVL");
+        if(strcmp (argv[2],"tab") == 0){
+            printf("arg t3 tab");
         }
         else if(strcmp (argv[1],"ABR") == 0){
             printf("arg t3 ABR");
         }
         else{
-            printf("arg t3 tab");
+            printf("arg t3 AVL");
         }
     }
     else if(strcmp (argv[1],"p1") == 0){
@@ -176,7 +176,7 @@ int main(int argc, char *argv[]){
             while(fscanf(fp, "%f;%f",&(stat->id_station),&(stat->humidite)) != EOF){
                 a=insertionAVL(a,(stat->id_station),(stat->humidite),donnee2,donnee3,min,max,&h);
              }
-            parcoursD_temp(a);
+            parcoursD_fichier_m(a);
    
             free(stat);
             fclose(fp);
