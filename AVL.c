@@ -213,7 +213,7 @@ PArbre insertionAVL_H(PArbre a, Element e, float donnee1,float donnee2,float don
 //affichage donnee t1 dans fichier sortie 
 void parcoursInfixe_fichier_t1(PArbre a){  
     FILE* ofp=NULL;
-    ofp=fopen("sort_t1.csv", "w");
+    ofp=fopen("temperaturet1.dat", "w");
         if(ofp == NULL){
             printf("Erreur ouverture fichier.");
         }
@@ -232,7 +232,7 @@ void parcoursCroissant_t1(PArbre a, FILE* ofp) {
 //affichage de t1 dans fichier sortie 
 void parcoursInfixe_fichier_p1(PArbre a){  
     FILE* ofp=NULL;
-    ofp=fopen("sort_p1.csv", "w");
+    ofp=fopen("pression1.dat", "w");
         if(ofp == NULL){
             printf("Erreur ouverture fichier.");
         }
@@ -249,7 +249,7 @@ void parcoursCroissant_p1(PArbre a, FILE* ofp) {
 
 void parcoursInfixe_fichier_w(PArbre a){  
     FILE* ofp=NULL;
-    ofp=fopen("sort_w.csv", "w");
+    ofp=fopen("vent.dat", "w");
         if(ofp == NULL){
             printf("Erreur ouverture fichier.");
         }
@@ -265,7 +265,7 @@ void parcoursCroissant_w(PArbre a, FILE* ofp) {
 }
 void parcoursD_fichier_h(PArbre a){  
     FILE* ofp=NULL;
-    ofp=fopen("sort_h.csv", "w");
+    ofp=fopen("meteoalt.dat", "w");
         if(ofp == NULL){
             printf("Erreur ouverture fichier.");
         }
@@ -281,7 +281,7 @@ void parcoursD_h(PArbre a, FILE* ofp){
 
 void parcoursD_fichier_m(PArbre a){  
     FILE* ofp=NULL;
-    ofp=fopen("sort_m.csv", "w");
+    ofp=fopen("meteohumidite.dat", "w");
         if(ofp == NULL){
             printf("Erreur ouverture fichier.");
         }
