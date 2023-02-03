@@ -34,10 +34,10 @@ Instructions de compilation .
 [TYPE de données] :
 
 - p < pressions atmosphériques >
--t <temperatures >
--w < vent > 
--h < attitude >
--m < humidité >
+- t < temperatures >
+- w < vent > 
+- h < attitude >
+- m < humidité >
   
 ## L'état du projet
   
