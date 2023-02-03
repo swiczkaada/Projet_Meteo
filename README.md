@@ -9,7 +9,7 @@ L'affichage de ces données triées permet à l'utilitaire gnluplot de générer
 
 Instructions de compilation .
 1)	Ouvrez l'invite de commande
-2)	Déplacez-vous dans le répertoire MET EO
+2)	Déplacez-vous dans le répertoire METEO
 3)	Exécutez la commande "make" pour générer l'éxécutable
 4)	Exécutez la commande "make clean" pour supprimer les fichiers objets
 5)	Exécuter la commande I ./scriptshell I sans oublier les arguments.
