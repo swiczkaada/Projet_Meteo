@@ -1,6 +1,6 @@
 ## Projet CY-Météo
 
-(Carla et Adam Swiczka PRE ING2 M15)
+(Carla Jullien et Adam Swiczka PRE ING2 M15)
 
 Une application utilisée pour filtrer et traiter les données météorologiques en fonction des préférences de l'utilisateur, construite avec Shell et le langage C.
 L'affichage de ces données triées permet à l'utilitaire gnluplot de générer des graphiques de type vecteurs, 'carte interpolé' ou de 'barre d'erreur .
@@ -43,7 +43,7 @@ Instructions de compilation .
   
 Ce projet est actuellement inachevé.
 Les utilisateurs peuvent filtrer les données selon la zone géographiques, les options et les tri.Cependant la fonctionnalité de tri est incomplète, les options p2/t2 et et p3/t3 et le tri -tab n'ont pas été codé .
-I l est également impossible de filtrer par la date et certains options peuvent partiellement fonctionner selon les conditions.
+Il est également impossible de filtrer par la date, utiliser le tri abr et certaines options peuvent partiellement fonctionner selon les conditions.
   
 ## Capture(s) d'écran du projet
  
