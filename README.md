@@ -3,7 +3,7 @@
 (Carla Jullien et Adam Swiczka PRE ING2 M15)
 
 Une application utilisée pour filtrer et traiter les données météorologiques en fonction des préférences de l'utilisateur, construite avec Shell et le langage C.
-L'affichage de ces données triées permet à l'utilitaire gnluplot de générer des graphiques de type vecteurs, 'carte interpolé' ou de 'barre d'erreur .
+L'affichage de ces données triées permet à l'utilitaire gnuplot de générer des graphiques de type vecteurs, 'carte interpolé' ou de 'barre d'erreur .
 
 ## Comment installer et exécuter le projet ?
 
@@ -38,6 +38,10 @@ Instructions de compilation .
 - w < vent > 
 - h < attitude >
 - m < humidité >
+
+[FICHIER] :
+
+--help: aide détaillé(affichage) à l'utisation du script
   
 ## L'état du projet
   
